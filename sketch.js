@@ -1,6 +1,6 @@
 function setup ()
 {
-  background (#FFFFFF);
+  background (255);
   createCanvas (500, 500);
 
   let x=random (500);
