@@ -3,8 +3,8 @@ let m;
 let h;
 let x;
 function setup() {
-  size (400, 400);
-  createCanvas(255);
+  createCanvas (400, 400);
+  background(255);
    s=second();
    m=minute();
    h=hour();
