@@ -18,7 +18,7 @@ function draw() {
   
 }
 
-void timeToAngle ()
+function timeToAngle ()
 {
 
   let s = map(second(), 0, 60, 0, (PI*2)) - (PI/2);
