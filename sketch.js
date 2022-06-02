@@ -54,7 +54,7 @@ function clockFace () {
   beginShape(POINTS);
   strokeWeight(5);
    x=0;
-  for (int i = 0; i < 360; i+=30) {
+  for (var i = 0; i < 360; i+=30) {
   
     let t = map(i,0,360,0,(2*PI));
     let x = 200+ cos(t) * 130;          
