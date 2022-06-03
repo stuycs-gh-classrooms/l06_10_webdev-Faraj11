@@ -4,6 +4,7 @@ let h;
 let x;
 function setup() {
   createCanvas (400, 400,0);
+  background(255);
   s=second();
   m=minute();
   h=hour();
